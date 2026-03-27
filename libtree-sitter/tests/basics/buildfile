@@ -1,0 +1,3 @@
+import libs = libtree-sitter%lib{tree-sitter}
+
+exe{driver}: {h c}{**} $libs testscript{**}

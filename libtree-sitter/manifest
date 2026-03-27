@@ -1,0 +1,14 @@
+: 1
+name: libtree-sitter
+version: 0.1.0-a.0.z
+language: c
+project: tree-sitter
+summary: tree-sitter C library
+license: GPL-3.0-or-later ; GNU General Public License v3.0 or later.
+package-description-file: PACKAGE-README.md
+url: https://github.com/wroyca/upstream
+email: upstream@example.org
+package-url: https://github.com/build2-packaging/tree-sitter
+package-email: packaging@build2.org ; Mailing list.
+depends: * build2 >= 0.17.0
+depends: * bpkg >= 0.17.0

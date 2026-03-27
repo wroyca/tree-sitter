@@ -1,0 +1,1 @@
+../../../upstream/lib/include/tree_sitter/api.h
