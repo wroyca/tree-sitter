@@ -14,7 +14,10 @@ lib{tree-sitter}: $pub/{$pub_hdrs}
 
 # Private headers and sources as well as dependencies.
 #
-lib{tree-sitter}: {h c}{**} $impl_libs $intf_libs
+# Note that we only compile lib.c because Tree-sitter uses a unity build
+# where lib.c includes all the other .c files.
+#
+lib{tree-sitter}: c{lib} h{**} $impl_libs $intf_libs
 
 # Build options.
 #
